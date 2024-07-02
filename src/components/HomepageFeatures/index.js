@@ -5,31 +5,31 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        科技週刊由數位各領域專家組成團隊撰寫，每週更新當週最新科技時事，帶您迅速了解科技新聞重點。
+        同時我們還原創發表知識、故事、程式等攤種樣式的內容，豐富閱讀的體驗。
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        趣味專題分享涵蓋範圍從大至小，從工業機器人、國際級競賽，小至學校生科專題、電腦桌面小遊戲。
+        我們以最淺顯易懂且趣味的方式呈現出來。
       </>
     ),
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        團隊成員原創迷因梗圖，內容趣味又富有知識內涵，是轉發給新朋好友的優於內容~
+        同時我們也於 threads 平台轉發網路趣味迷因，幫助您了解時事。
       </>
     ),
   },
