@@ -1,27 +1,16 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '程式貓',
+  tagline: '讓科技變得跟貓咪一樣可愛',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://codecat.tw',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,15 +32,13 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -70,9 +57,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '程式貓',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'CodeCat Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -84,8 +71,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: '/about',
+            label: '團隊介紹',
             position: 'right',
           },
         ],
@@ -94,46 +81,58 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '服務項目',
             items: [
               {
-                label: 'Tutorial',
+                label: '科技週刊',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '更多我們',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/codecat.tw',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@codecat-tw',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/profile.php?id=61559911739266&mibextid=JRoKGi',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/XT2PyGtPyN',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Threads',
+                href: 'https://www.threads.net/@codecat.tw',
               },
             ],
           },
           {
-            title: 'More',
+            title: '合作夥伴',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'YD遊戲頻',
+                href: 'https://www.youtube.com/@playeryd',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '明月楓夜',
+                href: 'https://www.youtube.com/@user-senryckey',
+              },
+              {
+                label: '枯楓亡月',
+                href: 'https://www.instagram.com/withered_mable.leaf_dead_moon/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2024 CodeCat team.`,
       },
       prism: {
         theme: prismThemes.github,
