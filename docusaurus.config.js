@@ -77,7 +77,7 @@ const config = {
             items: [
               {
                 label: '科技週刊',
-                to: '/docs/intro',
+                to: '/technews/intro',
               },
             ],
           },
