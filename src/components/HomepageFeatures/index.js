@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import LocalImage from './LocalImage.js';
 
 const FeatureList = [
   {
@@ -57,6 +58,7 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))}
         </div>
+        <LocalImage alt="描述圖片" width="600" height="400" />
       </div>
     </section>
   );
