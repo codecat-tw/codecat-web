@@ -60,7 +60,7 @@ const config = {
         title: '程式貓',
         logo: {
           alt: 'CodeCat Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.jpg',
         },
         items: [
           {
