@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '科技週刊',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '趣味專題',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -24,12 +24,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '迷因梗圖',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         團隊成員原創迷因梗圖，內容趣味又富有知識內涵，是轉發給新朋好友的優於內容~
-        同時我們也於 threads 平台轉發網路趣味迷因，幫助您了解時事。
       </>
     ),
   },
