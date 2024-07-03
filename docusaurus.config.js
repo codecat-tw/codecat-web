@@ -22,6 +22,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/technews',
         },
         blog: {
           showReadingTime: true,
