@@ -52,13 +52,18 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            position: "left",
+            label: '科技週刊',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             to: '/about',
             label: '團隊介紹',
+            position: 'right',
+          },
+          {
+            to: '/tos',
+            label: '服務條款',
             position: 'right',
           },
         ],
