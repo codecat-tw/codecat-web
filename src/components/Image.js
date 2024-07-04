@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LocalImage = ({ path, alt }) => {
+const Image = ({ path, alt }) => {
   return (
     <div>
       <img src={require(`@site/static${path}`).default} alt={alt} />
@@ -8,4 +8,4 @@ const LocalImage = ({ path, alt }) => {
   );
 };
 
-export default LocalImage;
+export default Image;
