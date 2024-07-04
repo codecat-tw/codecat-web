@@ -116,10 +116,6 @@ const config = {
                 label: '明月楓夜',
                 href: 'https://www.youtube.com/@user-senryckey',
               },
-              {
-                label: '枯楓亡月',
-                href: 'https://www.instagram.com/withered_mable.leaf_dead_moon/',
-              },
             ],
           },
         ],
