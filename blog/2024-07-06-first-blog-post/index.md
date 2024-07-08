@@ -1,5 +1,5 @@
 ---
-slug: first-blog-page
+slug: first-blog-post
 title: 歡迎來到程式貓
 authors: [YD]
 tags: [offical]
