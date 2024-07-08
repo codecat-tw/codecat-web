@@ -25,6 +25,8 @@ const config = {
           routeBasePath: '/technews',
         },
         blog: {
+          blogTitle: '部落格',
+          blogSidebarTitle: '文章列表',
           showReadingTime: true,
         },
         theme: {
