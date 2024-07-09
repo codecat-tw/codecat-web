@@ -57,7 +57,7 @@ const config = {
             position: "left",
             label: '科技週刊',
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '部落格', position: 'left'},
           {
             to: '/about',
             label: '團隊介紹',
