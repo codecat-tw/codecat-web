@@ -2,7 +2,7 @@
 slug: first-blog-post
 title: 歡迎來到程式貓
 authors: [YD]
-tags: [offical]
+tags: [official]
 ---
 
 歡迎來到程式貓，很高興跟各位宣佈我們網站完成啦！
