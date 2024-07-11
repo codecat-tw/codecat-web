@@ -5,7 +5,7 @@ const config = {
   title: '程式貓',
   tagline: '讓科技變得跟貓咪一樣可愛',
   favicon: 'img/favicon.ico',
-  url: 'https://codecat.tw',
+  url: 'https://www.codecat.tw',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
