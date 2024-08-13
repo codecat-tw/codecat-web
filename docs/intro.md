@@ -21,7 +21,7 @@ sidebar_position: 0
 
 科技週刊每週於我們旗下的全社群平台推出，然而即便追蹤我們仍然會受限於演算法影響，因此訂閱電子報將會是更穩定且良好的選擇。你只需要花費三十秒留下你的電子郵件地址，並勾選想要接收的內容即可。放心，我們並不會發送你不希望收到的內容，同時你隨時可以選擇取消訂閱！
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvQTT9bODSsbY1QnQ1OKsSWW3Ab4Jf_lWwEMbKgk4r3sjdoQ/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvQTT9bODSsbY1QnQ1OKsSWW3Ab4Jf_lWwEMbKgk4r3sjdoQ/viewform?embedded=true" width="640" height="758" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
 
 ## 週刊目錄
 
@@ -75,3 +75,13 @@ sidebar_position: 0
 - 二、台積電發現全球最強晶片B200設計瑕疵！輝達緊急停產？
 - 三、彗星被木星強制「踢除」太陽系
 - 四、chatgpt近期重大發展？
+
+## 文章投稿 / 議題許願
+
+「每個人都有一種心願，期待能被大家看到」。
+
+我們團隊聽到大家的心聲了！為此我們推出「文章投稿」的功能，讓每個想要創作文章的人都有一個能夠發揮的空間。在這裡我們不會審查你的內容，撰寫即可發佈，優良文章還可以入圍每期的程式貓科技週刊，是你展現文筆的最好機會！
+
+除此之外「議題許願池」提供給大家填寫想要看的主題，經過團隊內部成員討論後即會在往後的週刊出現！
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5UrQorfKKCpn-I_4GvOLhXf4d0WuL94tE1gfHpk8sEEzE8Q/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
