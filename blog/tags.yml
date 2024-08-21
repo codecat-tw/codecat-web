@@ -3,6 +3,11 @@ official:
   permalink: /official
   description: 程式貓官方團隊發佈
 
+cooperate:
+  label: cooperate
+  permalink: /cooperate
+  description: 合作夥伴訊息
+
 contribute:
   label: contribute
   permalink: /contribute
