@@ -5,6 +5,7 @@ const Image = ({ path, alt }) => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    marginBottom: '20px',
   };
 
   const imageStyle = {
