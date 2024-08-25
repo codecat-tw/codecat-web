@@ -11,6 +11,7 @@ const Image = ({ path, alt }) => {
   const imageStyle = {
     maxWidth: '100%',
     height: 'auto',
+    borderRadius: '10px'
   };
 
   return (
