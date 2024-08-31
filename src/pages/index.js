@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import PartnerCarousel from '@site/src/components/HomepageFeatures/PartnerCarousel';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import Head from '@docusaurus/Head';
@@ -23,6 +24,7 @@ function HomepageHeader() {
             熱門內容: 科技週刊！
           </Link>
         </div>
+        <PartnerCarousel />
       </div>
     </header>
   );
