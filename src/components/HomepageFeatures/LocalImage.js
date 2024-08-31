@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.module.css'; // 假設你會使用 CSS 模組來定義樣式
+import styles from './styles.module.css';
 
 const LocalImage = ({ alt, width, height }) => {
   return (

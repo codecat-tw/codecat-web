@@ -1,57 +1,55 @@
-/* src/components/PartnerCarousel.css */
-
 .partner-carousel {
-    overflow: hidden;
-    width: 100%;
-    height: 150px; /* 增加高度 */
-    display: flex;
-    align-items: center;
-    position: relative;
-    white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  white-space: nowrap;
+}
+
+.carousel-content {
+  display: inline-block;
+  animation: scroll 30s linear infinite;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.partner-item {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 40px;
+  transition: transform 0.3s, color 0.3s;
+  text-decoration: none;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.partner-item:hover {
+  transform: scale(1.2);
+  color: #333;
+}
+
+.partner-logo {
+  height: 100px;
+  margin-right: 15px;
+  transition: transform 0.3s;
+}
+
+.partner-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
   }
-  
-  .carousel-content {
-    display: inline-block;
-    animation: scroll 30s linear infinite; /* 調整滾動速度 */
-    display: flex;
-    align-items: center; /* 垂直居中內容 */
-    height: 100%; /* 確保內容的高度充滿父容器 */
+
+  100% {
+    transform: translateX(-100%);
   }
-  
-  .partner-item {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 40px; /* 調整項目之間的間距 */
-    transition: transform 0.3s, color 0.3s; /* 添加顏色過渡效果 */
-    text-decoration: none;
-    color: #333; /* 設定初始文字顏色 */
-    position: relative; /* 確保懸停效果不影響文字顯示 */
-    overflow: hidden; /* 防止內容溢出 */
-  }
-  
-  .partner-item:hover {
-    transform: scale(1.2); /* 當鼠標懸停時放大 */
-    color: #333; /* 確保懸停時文字顏色不變 */
-  }
-  
-  .partner-logo {
-    height: 100px; /* 增加Logo的高度 */
-    margin-right: 15px; /* 調整Logo和文字之間的間距 */
-    transition: transform 0.3s; /* 為Logo添加過渡效果 */
-  }
-  
-  .partner-name {
-    font-size: 1.5em; /* 放大文字大小 */
-    font-weight: bold;
-    transition: transform 0.3s; /* 為文字添加過渡效果 */
-  }
-    
-  @keyframes scroll {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
+}
