@@ -18,7 +18,7 @@
     "@docusaurus/preset-classic": "^3.5.2",
     "@mdx-js/react": "^3.0.1",
     "clsx": "^2.1.1",
-    "prism-react-renderer": "^2.3.1",
+    "prism-react-renderer": "^2.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -37,8 +37,5 @@
       "last 3 firefox version",
       "last 5 safari version"
     ]
-  },
-  "//_engines": {
-    "node": ">=18.0"
   }
 }
