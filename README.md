@@ -1,4 +1,18 @@
-# codecat-tw程式貓社群官網
+<div align="center">
+  <a href="https://www.codecat.tw">
+    <picture>
+      <img alt="logo" src="https://www.codecat.tw/img/logo.jpg" height="64">
+    </picture>
+  </a>
+  <h1>codecat-tw 程式貓社群官網</h1>
+
+<a href="https://github.com/codecat-tw/codecat-web/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/badge/license-MIT-green"></a>
+<a href="https://github.com/codecat-tw/codecat-web/blob/main/package.json"><img alt="version" src="https://img.shields.io/badge/docusaurus-3.5-blue"></a>
+<a href="https://github.com/codecat-tw/codecat-web/blob/main/package.json"><img alt="version" src="https://img.shields.io/badge/React-18-blue"></a>
+
+</div>
+
+## 專案介紹
 
 這是一個基於 Docusaurus 的開源網站，專案同步作為程式貓社群的官方網站。專案採用 MIT 開源，因此你可以使用這項專案來做任何你所想要的事，只需要標註來源出處即可。如果你是一個程式新手，正在研究如何建立一個實際能夠使用的網站，我們認為這個專案是很好的起點。
 
