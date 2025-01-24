@@ -7,8 +7,8 @@
   <h1>codecat-tw 程式貓社群官網</h1>
 
 <a href="https://github.com/codecat-tw/codecat-web/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/badge/license-MIT-green"></a>
-<a href="https://github.com/codecat-tw/codecat-web/blob/main/package.json"><img alt="version" src="https://img.shields.io/badge/docusaurus-3.5-blue"></a>
-<a href="https://github.com/codecat-tw/codecat-web/blob/main/package.json"><img alt="version" src="https://img.shields.io/badge/React-18-blue"></a>
+<a href="https://github.com/codecat-tw/codecat-web/blob/main/package.json"><img alt="version" src="https://img.shields.io/badge/docusaurus-3.7-blue"></a>
+<a href="https://github.com/codecat-tw/codecat-web/blob/main/package.json"><img alt="version" src="https://img.shields.io/badge/React-19-blue"></a>
 
 </div>
 
