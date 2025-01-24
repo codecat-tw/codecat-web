@@ -15,21 +15,22 @@ const FeatureList = [
     ),
   },
   {
-    title: '趣味專題',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Next.js / React 讀書會',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        趣味專題分享涵蓋範圍從大至小，從工業機器人、國際級競賽，小至學校生科專題、電腦桌面小遊戲。
-        我們以最淺顯易懂且趣味的方式呈現出來。
+        全台唯一面向初學者的網頁開發讀書會，歡迎所有對 Next.js / React 乃至於網站後端有興趣的人加入！
+        目前讀書會成員數已突破 400 多人，每周舉辦線上讀書會供成員交流。
       </>
     ),
   },
   {
-    title: '迷因梗圖',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '專題百科',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        團隊成員原創迷因梗圖，內容趣味又富有知識內涵，是轉發給親朋好友的優質內容~
+        專題百科是程式貓科技教育社群的全新項目，致力於提供一個平台供大眾交流創作想法，整合大家的創作並提高價值。
+        平台簡單好上手，協助您輕鬆地將創作與他人分享，而不需要花費大量時間處理宣傳工作。
       </>
     ),
   },
@@ -58,7 +59,7 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <LocalImage alt="描述圖片" width="600" height="400" />
+        <LocalImage alt="描述圖片" width="300" height="200" />
       </div>
     </section>
   );

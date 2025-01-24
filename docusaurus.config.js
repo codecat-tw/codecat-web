@@ -58,27 +58,27 @@ const config = {
             label: '科技週刊',
           },
           {to: '/blog', label: '部落格', position: 'left'},
-          {
-            to: '/about',
-            label: '團隊介紹',
-            position: 'right',
-          },
-          {
-            to: '/tos',
-            label: '服務條款',
-            position: 'right',
-          },
+          {to: '/about', label: '團隊介紹', position: 'right'},
+          {to: '/tos', abel: '服務條款', position: 'right'},
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: '服務項目',
+            title: '社群專案',
             items: [
               {
                 label: '科技週刊',
                 to: '/technews/intro',
+              },
+              {
+                label: '專題百科',
+                to: '/',
+              },
+              {
+                label: 'Next.js / React 讀書會',
+                to: '/',
               },
             ],
           },
@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2024 CodeCat team.`,
+        copyright: `Copyright © 2024-2025 CodeCat team.`,
       },
       prism: {
         theme: prismThemes.github,
